@@ -18,4 +18,4 @@ jobs:
     - name: composer install
       run: cd ${{ secrets.PATH }}/ && php /usr/local/bin/composer install
     - name: php artisan migrate
-      run: cd ${{ secrets.DEVPATH }}/ && php artisan migrate
+      run: cd ${{ secrets.PATH }}/ && php artisan migrate
