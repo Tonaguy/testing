@@ -9,7 +9,7 @@ on:
 jobs:
   laravel-tests:
 
-    runs-on: self-hosted
+    runs-on: denv
 
     steps:
     - uses: shivammathur/setup-php@v2
